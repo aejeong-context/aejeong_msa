@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id 'idea'             // IntelliJ IDEA 지원 (Optional)
+}
+
+allprojects {
+    group = 'com.
+    version = '1.0.0'
+
+    repositories {
+        mavenCentral()
+    }
+}
